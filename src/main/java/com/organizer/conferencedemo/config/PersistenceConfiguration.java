@@ -15,8 +15,8 @@ public class PersistenceConfiguration {
 
         DataSourceBuilder builder = DataSourceBuilder.create();
         builder.url("jdbc:postgresql://localhost:5432/conferencedb");
-        builder.username("postgres");
-        builder.password("post123");
+        builder.username("*******");
+        builder.password("*******");
         System.out.println("My custom datasource has been set and initialized");
 
         return builder.build();
